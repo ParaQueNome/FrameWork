@@ -13,5 +13,66 @@
 li {
     display: inline;
     margin-right: 50px;
+
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+header, footer {
+	width: auto;
+	background: rgba(80,80,80,0.2);
+	line-height: 3em;
+}
+
+header {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 11 0px;
+}
+
+footer {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 50px;
+}
+
+header h1, footer h1 {
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+article {
+	margin-top: 10px; 
+	width: 40%;
+	border: 1px dashed var(--vermelho);
+	height: 400px;
+	margin-left: 5%;
+	position: relative;
+	float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #F9D423;
+
+}
+
+.article {
     
 }
